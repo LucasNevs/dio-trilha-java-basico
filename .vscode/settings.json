@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Sistema-Smart-Tv/src",
         "Sistema-Smart-Tv/bin",
-        "Sistema-Smart-Tv/src"
+        "Sistema-Smart-Tv"
     ]
 }
