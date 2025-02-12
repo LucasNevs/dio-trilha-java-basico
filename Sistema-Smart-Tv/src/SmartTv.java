@@ -36,9 +36,12 @@ public class SmartTv {
     }
 
     public void definirCanal(){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Digite o canal desejado: ");
-        canal = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Digite o canal desejado: ");
+            canal = input.nextInt();
+        }
         System.out.println("Novo canal: " + canal);
+
     }
+    
 }
